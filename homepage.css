@@ -1,0 +1,126 @@
+/* Hero Section */
+.hero-section {
+    background-image: url('images/hiraeth-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  .hero-buttons .button {
+    margin: 10px;
+  }
+  
+  /* Introduction Section */
+  .introduction {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .introduction h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+  }
+  
+  .introduction p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .intro-media img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .read-more {
+    margin-top: 20px;
+  }
+  
+  /* Key Features Section */
+  .key-features {
+    padding: 50px 20px;
+    background-color: #1c1c1c;
+    color: #fff;
+  }
+  
+  .key-features h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+    color: #ffcc00;
+  }
+  
+  .features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .feature-item img {
+    max-width: 80px;
+    margin-bottom: 15px;
+  }
+  
+  .feature-item p {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  /* Community Section */
+  .community {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .community h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+  }
+  
+  .community-events ul li::before {
+    content: "•";
+    color: #ffcc00;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+  }
+  

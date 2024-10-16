@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light Omens | Lore and Setting Guide</title>
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="lore-guide.css" />
+  </head>
+  <body>
+    <!-- Master Header. Persistent -->
+    <header>
+      <div class="header-container">
+        <h2>Light Omens</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="core-rulebook.html">Core Rulebook</a></li>
+            <li class="active"><a href="#">Lore Guide</a></li>
+            <li><a href="bestiary.html">Bestiary</a></li>
+            <li><a href="community.html">Community Hub</a></li>
+          </ul>
+        </nav>
+        <input type="text" placeholder="Search..." class="search-bar" />
+      </div>
+    </header>
+
+    <!-- Hero Section: Interactive Map -->
+    <section class="hero-map">
+      <h2>Explore the World of Hiraeth</h2>
+      <div class="interactive-map">
+        <img
+          src="images/hiraeth-map.jpg"
+          alt="Map of Hiraeth"
+          usemap="#hiraeth-map"
+        />
+        <map name="hiraeth-map">
+          <!-- Clickable Regions -->
+          <area
+            shape="rect"
+            coords="34,44,270,350"
+            href="#region1"
+            alt="Region 1"
+          />
+          <area
+            shape="rect"
+            coords="290,172,333,250"
+            href="#region2"
+            alt="Region 2"
+          />
+          <!-- Add more regions as needed -->
+        </map>
+      </div>
+    </section>
+
+    <!-- Main Content Area -->
+    <main class="lore-content">
+      <!-- Region Pages -->
+      <section id="region1" class="region-page">
+        <h2>Region 1: The Shattered Wastes</h2>
+        <p>
+          The Shattered Wastes are a desolate and dangerous region, where few
+          dare to tread. Ruins of an ancient civilization dot the landscape, and
+          the Grim Light’s influence is strongest here.
+        </p>
+        <div class="faction-section">
+          <h3>Factions in this Region</h3>
+          <div class="faction">
+            <h4>The Revenites</h4>
+            <p>
+              The Revenites are a faction of fallen warriors, bound to the land
+              by the Grim Light’s power. They are a ruthless and dangerous
+              force.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="region2" class="region-page">
+        <h2>Region 2: The Verdant Plains</h2>
+        <p>
+          A vibrant and lush area of Hiraeth, the Verdant Plains are home to
+          numerous factions, all vying for control over the fertile lands.
+        </p>
+        <div class="faction-section">
+          <h3>Factions in this Region</h3>
+          <div class="faction">
+            <h4>The Technocrats</h4>
+            <p>
+              The Technocrats are a highly organized faction focused on
+              technology and innovation, seeking to bring order to Hiraeth
+              through mechanical and magical means.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Sidebar: Timeline Widget -->
+    <aside class="sidebar">
+      <h3>Hiraeth Timeline</h3>
+      <div class="timeline-widget">
+        <ul>
+          <li><span>1500 AE</span> - Founding of the First Kingdom</li>
+          <li><span>1550 AE</span> - Rise of the Grim Light</li>
+          <li><span>1600 AE</span> - The War of Ruin</li>
+          <!-- More timeline events -->
+        </ul>
+      </div>
+    </aside>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 Ebonmane Ink</p>
+        <a href="https://discord.com" target="_blank">Join us on Discord</a>
+      </div>
+    </footer>
+  </body>
+</html>

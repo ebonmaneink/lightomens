@@ -4,43 +4,122 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Light Omens | Homepage</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="homepage.css" />
   </head>
+
   <body>
-    <!--Master Header. Persistant-->
+    <!-- Master Header. Persistent -->
     <header>
-      <h2>Light Omens</h2>
-      <nav>
-        <ul>
-          <li>Home</li>
-          <li>Core Rules</li>
-          <li>Lore Guide</li>
-          <li>Bestiary</li>
-          <li>Community Hub</li>
-        </ul>
-      </nav>
-      <input type="text" /> Search
+      <div class="header-container">
+        <h2>Light Omens</h2>
+        <nav>
+          <ul>
+            <li><a href="core-rulebook.html">Core Rulebook</a></li>
+            <li><a href="lore-guide.html">Lore Guide</a></li>
+            <li><a href="bestiary.html">Bestiary</a></li>
+            <li><a href="#community">Community</a></li>
+            <li><a href="#expansions">Expansions</a></li>
+          </ul>
+        </nav>
+        <input type="text" placeholder="Search..." class="search-bar" />
+      </div>
     </header>
 
-    <!--Content Page-->
-    <main>
-      <section>
-        Hero Section
-        <h1>Light Omens</h1>
-        <p>"Master the Light, Conquer the Shadows, Rewrite Destiny"</p>
-        <p>Welcome to the official homepage for Light Omens!</p>
-      </section>
-      <section>
-        Introduction
-        <h2>What is Light Omens?</h2>
-      </section>
-      <section>Key Features</section>
-      <section>Community</section>
-      Welcome to the official page for Light Omens, the Tabletop Roleplaying
-      Game!
-    </main>
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1>Light Omens: Hope Through Grim Darkness</h1>
+        <p>Master the Light, Conquer the Shadows, Rewrite Destiny</p>
+        <div class="hero-buttons">
+          <a href="#start-playing" class="button">Start Playing</a>
+          <a href="#explore-rulebook" class="button">Explore the Rulebook</a>
+        </div>
+      </div>
+    </section>
 
-    <!--Master Footer. Persistant-->
-    <footer><p>Copyright Ebonmane Ink 2024</p></footer>
+    <!-- Introduction Section -->
+    <section class="introduction">
+      <h2>What is Light Omens?</h2>
+      <p>
+        Light Omens is a tabletop role-playing game set in the world of Hiraeth,
+        where hope battles against the encroaching Grim Light. Players take on
+        the roles of adventurers striving to navigate a world teetering on the
+        edge of darkness.
+      </p>
+      <p>
+        Dive deep into rich lore, challenging mechanics, and a vivid world
+        filled with endless possibilities. Whether you're a veteran or new to
+        the game, Light Omens offers something for everyone.
+      </p>
+      <a href="#read-more" class="read-more">Read More</a>
+      <div class="intro-media">
+        <img src="images/trailer-thumbnail.jpg" alt="Game Trailer Thumbnail" />
+      </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="key-features">
+      <h2>Key Features</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <img src="images/rulebook-icon.png" alt="Core Rulebook Icon" />
+          <p>Core Rulebook</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/lore-icon.png" alt="Lore Guide Icon" />
+          <p>Lore Guide</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/bestiary-icon.png" alt="Bestiary Icon" />
+          <p>Bestiary</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/community-icon.png" alt="Community Icon" />
+          <p>Community</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Community Section -->
+    <section class="community">
+      <h2>Community Hub</h2>
+      <div class="community-events">
+        <h3>Upcoming Events</h3>
+        <ul>
+          <li>October 20, 2024: Global Game Night</li>
+          <li>November 5, 2024: Light Omens Tournament</li>
+          <li>December 15, 2024: New Expansion Reveal Stream</li>
+        </ul>
+      </div>
+      <div class="forum-highlights">
+        <h3>Forum Highlights</h3>
+        <ul>
+          <li><a href="#">Tips for New GMs</a></li>
+          <li><a href="#">Top Character Builds</a></li>
+          <li><a href="#">Best Fan Art of the Month</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a href="https://discord.com" target="_blank">Discord</a>
+          <a href="https://twitter.com" target="_blank">Twitter</a>
+          <a href="https://www.patreon.com" target="_blank">Patreon</a>
+        </div>
+        <div class="quick-links">
+          <a href="#core-rulebook">Core Rulebook</a>
+          <a href="#lore-guide">Lore Guide</a>
+          <a href="#bestiary">Bestiary</a>
+        </div>
+        <div class="contact-info">
+          <p>Email: contact@lightomens.com</p>
+        </div>
+        <p>&copy; 2024 Ebonmane Ink</p>
+      </div>
+    </footer>
   </body>
 </html>

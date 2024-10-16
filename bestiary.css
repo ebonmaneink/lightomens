@@ -1,0 +1,143 @@
+/* Bestiary Filters and Gallery */
+.bestiary-gallery {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .filters h2 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  .filters label {
+    font-size: 1.2em;
+    margin-right: 10px;
+  }
+  
+  .filters select {
+    padding: 5px 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Gallery Grid */
+  .creature-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .creature-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .creature-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .creature-card h3 {
+    font-size: 1.8em;
+    margin-top: 15px;
+  }
+  
+  .creature-card p {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .creature-card .button {
+    display: inline-block;
+    background-color: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .creature-card .button:hover {
+    background-color: #e6b800;
+  }
+  
+  /* Creature Profile Section */
+  .creature-profile {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .creature-profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .creature-profile-header img {
+    width: 300px;
+    height: auto;
+    margin-right: 30px;
+    border-radius: 10px;
+  }
+  
+  .creature-profile-header h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .creature-details h3 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  .creature-details p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .creature-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .creature-details ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-content a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin-top: 10px;
+  }
+  

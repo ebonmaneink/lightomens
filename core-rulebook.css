@@ -1,0 +1,79 @@
+/* Core Rulebook Layout */
+.core-rulebook-layout {
+    display: flex;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .sidebar-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .quick-access-buttons .button {
+    display: block;
+    margin: 15px 0;
+    text-align: center;
+  }
+  
+  /* Main Content Area */
+  .main-content {
+    width: 60%;
+    padding: 20px;
+  }
+  
+  .chapter-content h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+  }
+  
+  .character-creation-tool label,
+  .character-creation-tool select,
+  .character-creation-tool button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  .character-creation-tool select {
+    font-size: 1em;
+  }
+  
+  /* Right Sidebar */
+  .right-sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  .glossary ul {
+    list-style-type: none;
+  }
+  
+  .glossary ul li {
+    margin-bottom: 10px;
+  }
+  
+  .quick-reference ul {
+    list-style-type: none;
+  }
+  
