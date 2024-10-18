@@ -3,14 +3,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
 /* General Page Layout */
 body {
   background-color: #f4f4f4;
   color: #333;
-  font-family: 'Helvetica', sans-serif;
+  font-family: "Helvetica", sans-serif;
   line-height: 1.6;
 }
 
@@ -22,7 +22,6 @@ a {
 a:hover {
   color: #e6b800;
 }
-
 
 /* Header Styles */
 header {

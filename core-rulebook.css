@@ -1,79 +1,202 @@
 /* Core Rulebook Layout */
 .core-rulebook-layout {
-    display: flex;
-    padding: 20px;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 20px;
+  gap: 20px; /* Adds spacing between sidebar and content */
+}
+
+/* Chapter Navigation */
+.chapter-navigation ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.chapter-navigation ul li {
+  display: inline;
+}
+
+.chapter-navigation ul li a {
+  color: #ffcc00;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.chapter-navigation ul li a:hover {
+  color: #e6b800;
+}
+
+/* Attribute and Approach Tables */
+.attribute-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1.1em;
+}
+
+.attribute-table th,
+.attribute-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.attribute-table th {
+  background-color: #ffcc00;
+  color: #333;
+  font-weight: bold;
+}
+
+.attribute-table td {
+  background-color: #f4f4f4;
+}
+
+.attribute-table tr:hover {
+  background-color: #e6e6e6;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+/* Make the chapter links vertical */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  display: block; /* Ensure it's block layout for vertical stacking */
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  display: block; /* Each list item should behave like a block element */
+  width: 100%; /* Ensure the list item spans the entire sidebar width */
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.1em;
+  display: block; /* Ensure the links are also displayed as blocks */
+  padding: 10px 0; /* Add some padding for spacing */
+}
+
+.sidebar ul li a:hover {
+  background-color: #ffcc00;
+  color: #fff;
+  padding-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.quick-access-buttons .button {
+  display: block;
+  margin: 15px 0;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffcc00;
+  color: #333;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.quick-access-buttons .button:hover {
+  background-color: #e6b800;
+}
+
+/* Main Content Area */
+.main-content {
+  width: 60%;
+  padding: 20px;
+}
+
+.chapter-content h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.chapter-content p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.character-creation-tool label,
+.character-creation-tool select,
+.character-creation-tool button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.character-creation-tool select {
+  font-size: 1em;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.glossary ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.glossary ul li {
+  margin-bottom: 10px;
+}
+
+.glossary ul li a {
+  text-decoration: none;
+  color: #ffcc00;
+}
+
+.quick-reference ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quick-reference ul li {
+  margin-bottom: 10px;
+}
+
+.quick-reference ul li a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .core-rulebook-layout {
+    flex-direction: column;
   }
-  
-  .sidebar {
-    width: 20%;
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
-  
-  .sidebar-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .sidebar ul {
-    list-style-type: none;
-  }
-  
-  .sidebar ul li {
-    margin-bottom: 10px;
-  }
-  
-  .sidebar ul li a {
-    text-decoration: none;
-    color: #333;
-  }
-  
-  .quick-access-buttons .button {
-    display: block;
-    margin: 15px 0;
-    text-align: center;
-  }
-  
-  /* Main Content Area */
+
+  .sidebar,
+  .right-sidebar,
   .main-content {
-    width: 60%;
-    padding: 20px;
-  }
-  
-  .chapter-content h2 {
-    font-size: 2em;
-    margin-bottom: 15px;
-  }
-  
-  .character-creation-tool label,
-  .character-creation-tool select,
-  .character-creation-tool button {
-    display: block;
     width: 100%;
-    margin-bottom: 10px;
     padding: 10px;
   }
-  
-  .character-creation-tool select {
-    font-size: 1em;
+
+  .chapter-content h2 {
+    font-size: 2em;
   }
-  
-  /* Right Sidebar */
-  .right-sidebar {
-    width: 20%;
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
-  
-  .glossary ul {
-    list-style-type: none;
-  }
-  
-  .glossary ul li {
-    margin-bottom: 10px;
-  }
-  
-  .quick-reference ul {
-    list-style-type: none;
-  }
-  
+}

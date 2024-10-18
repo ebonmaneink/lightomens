@@ -33,8 +33,8 @@
           <li class="sidebar-title">Chapters</li>
           <li><a href="#chapter1">Chapter 1: Characters</a></li>
           <li><a href="#chapter2">Chapter 2: Talents and Abilities</a></li>
-          <li><a href="#chapter3">Chapter 3: Combat</a></li>
-          <li><a href="#chapter4">Chapter 4: Equipment</a></li>
+          <li><a href="#chapter3">Chapter 3: The BASE6 Blueprint</a></li>
+          <li><a href="#chapter4">Chapter 4: Conflict and Combat</a></li>
           <li><a href="#chapter5">Chapter 5: Magic and Powers</a></li>
         </ul>
 
@@ -49,41 +49,162 @@
         <!-- Chapter 1: Characters -->
         <section id="chapter1" class="chapter-content">
           <h2>Chapter 1: Characters</h2>
+          <nav class="chapter-navigation">
+            <ul>
+              <li><a href="#character-attributes">Attributes</a></li>
+              <li><a href="#character-approaches">Approaches</a></li>
+            </ul>
+          </nav>
+
           <p>
             Welcome to character creation! In this chapter, you will learn how
-            to create your own unique character for Light Omens, including
-            selecting your origin, archetype, and talents.
+            to create your own unique character for
+            <em>Light Omens</em>, including selecting your origin, archetype,
+            and talents.
           </p>
-          <div class="character-creation-tool">
-            <h3>Character Creation Tool</h3>
-            <form>
-              <!-- Origin Selection -->
-              <label for="origin">Select Your Origin:</label>
-              <select id="origin" name="origin">
-                <option value="human">Human</option>
-                <option value="arkan">Arkan</option>
-                <option value="revenue">Revenant</option>
-              </select>
 
-              <!-- Archetype Selection -->
-              <label for="archetype">Select Your Archetype:</label>
-              <select id="archetype" name="archetype">
-                <option value="warrior">Warrior</option>
-                <option value="mystic">Mystic</option>
-                <option value="rogue">Rogue</option>
-              </select>
+          <!-- Attributes Section -->
+          <h3 id="character-attributes">Attributes</h3>
+          <p>
+            A character’s attributes represent their core abilities, showing how
+            capable they are in specific actions. Each attribute is rated from 1
+            to 6.
+          </p>
 
-              <!-- Talents Selection -->
-              <label for="talents">Choose Your Talents:</label>
-              <select id="talents" name="talents" multiple>
-                <option value="strength">Strength</option>
-                <option value="agility">Agility</option>
-                <option value="intellect">Intellect</option>
-              </select>
+          <!-- Body Attribute -->
+          <h4>Body Attribute</h4>
+          <p>
+            The Body attribute represents a character's physical prowess, such
+            as strength, agility, and endurance. It is a measure of their
+            physical strength, dexterity, and stamina.
+          </p>
+          <p>
+            <strong>Example actions:</strong> Lifting heavy objects, balancing
+            on a beam, swimming long distances.
+          </p>
 
-              <button type="submit" class="button">Create Character</button>
-            </form>
-          </div>
+          <!-- Mind Attribute -->
+          <h4>Mind Attribute</h4>
+          <p>
+            The Mind attribute represents a character’s intelligence, wisdom,
+            and concentration. It measures their cognitive abilities,
+            problem-solving skills, and mental strength.
+          </p>
+          <p>
+            <strong>Example actions:</strong> Solving puzzles, perceiving traps,
+            quick thinking.
+          </p>
+
+          <!-- Soul Attribute -->
+          <h4>Soul Attribute</h4>
+          <p>
+            The Soul attribute reflects a character’s ability to be convincing,
+            resolute, and calm under pressure. It also measures their honesty
+            and social skills.
+          </p>
+          <p>
+            <strong>Example actions:</strong> Intimidating enemies, deceiving
+            guards, remaining calm in danger.
+          </p>
+
+          <!-- Attribute Rating Table -->
+          <h4>Attribute Scale</h4>
+          <table class="attribute-table">
+            <thead>
+              <tr>
+                <th>Attribute Rating</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Weak Attribute</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Decent Attribute</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Strong Attribute</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Exceptional Attribute</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Outstanding Attribute</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Legendary Attribute</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- Approaches Section -->
+          <h3 id="character-approaches">Approaches</h3>
+          <p>
+            A character’s approaches reflect their training and understanding in
+            specific areas, indicating how effective they are at completing
+            certain actions. Each approach is rated from 0 to 4.
+          </p>
+
+          <!-- Force Approaches -->
+          <h4>Force Approaches</h4>
+          <p>
+            Force approaches focus on direct actions, taking advantage of
+            obvious opportunities and simple solutions.
+          </p>
+
+          <!-- Finesse Approaches -->
+          <h4>Finesse Approaches</h4>
+          <p>
+            Finesse approaches emphasize careful planning and skillful tactics,
+            preferring indirect methods.
+          </p>
+
+          <!-- Focus Approaches -->
+          <h4>Focus Approaches</h4>
+          <p>
+            Focus approaches rely on patience, endurance, and mental fortitude,
+            remaining steady through difficult challenges.
+          </p>
+
+          <!-- Approach Rating Table -->
+          <h4>Approach Scale</h4>
+          <table class="attribute-table">
+            <thead>
+              <tr>
+                <th>Approach Rating</th>
+                <th>Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>0</td>
+                <td>Untrained Approach</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Competent Approach</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Skillful Approach</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Expert Approach</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Masterful Approach</td>
+              </tr>
+            </tbody>
+          </table>
         </section>
 
         <!-- Chapter 2: Talents and Abilities -->
@@ -96,7 +217,7 @@
           </p>
         </section>
 
-        <!-- Other chapters would follow the same structure, expandable sections... -->
+        <!-- More chapters would follow the same structure -->
       </main>
 
       <!-- Right Sidebar: Glossary and Quick Reference -->

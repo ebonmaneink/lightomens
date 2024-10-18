@@ -1,0 +1,31 @@
+<!-
+<div class="character-creation-tool">
+            <h3>Character Creation Tool</h3>
+            <form>
+              <!-- Origin Selection -->
+              <label for="origin">Select Your Origin:</label>
+              <select id="origin" name="origin">
+                <option value="human">Human</option>
+                <option value="arkan">Arkan</option>
+                <option value="revenant">Revenant</option>
+              </select>
+
+              <!-- Archetype Selection -->
+              <label for="archetype">Select Your Archetype:</label>
+              <select id="archetype" name="archetype">
+                <option value="warrior">Warrior</option>
+                <option value="mystic">Mystic</option>
+                <option value="rogue">Rogue</option>
+              </select>
+
+              <!-- Talents Selection -->
+              <label for="talents">Choose Your Talents:</label>
+              <select id="talents" name="talents" multiple>
+                <option value="strength">Strength</option>
+                <option value="agility">Agility</option>
+                <option value="intellect">Intellect</option>
+              </select>
+
+              <button type="submit" class="button">Create Character</button>
+            </form>
+          </div>
